@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning with CSS</title>
+    <style>
+        body{
+            background-color: peru;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div.relative {
+            position: relative;
+            left: 30px;
+            border: 3px solid purple;
+        }
+
+        div.fixed {
+            position: fixed;
+            left: 30px;
+            border: 3px solid black;
+        }
+
+        div.absolute {
+            position: absolute;
+            left: 30px;
+            border: 3px solid green
+        }
+
+        div.static {
+            position: static;
+            left: 30px;
+            border: 3px solid palevioletred
+        }
+        div.first{
+            opacity: 0.1;
+            background-color: purple;
+        }
+        div.second{
+            opacity: 0.3;
+            background-color: purple;
+        }
+        div.third{
+            opacity: 0.6;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h2>Positions</h2>
+    <p>An element with relative positions is positioned relative to its normal position.</p><br>
+    <div class="relative">
+        This div element has position: relative.
+    </div><br><br>
+    <div class="fixed">
+        This div element has position: fixed.
+    </div><br><br>
+    <div class="absolute">
+        This div element has position: absolute.
+    </div><br><br>
+    <div class="static">
+        This div element has position: static.
+    </div>
+    <h2>Opacity</h2>
+    <p>This is what the opacity property looks like:</p>
+    <div class="first">0.1 opacity</div>
+    <div class="second">0.3 opacity</div>
+    <div class="third">0.6 opacity</div>
+</body>
+</html>
+        
+    
