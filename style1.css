@@ -1,0 +1,20 @@
+h1{
+    color: orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    text-decoration: underline;
+}
+p{
+    font-style: italic;
+}
+h5{
+    color: darkblue;
+    font-family: Poppins;
+    text-decoration: overline underline;
+}
+h4{
+    color: blueviolet;
+    font-family: Poppins;
+    text-shadow: 1px 5px 9px blue;
+    text-transform: uppercase;
+}
